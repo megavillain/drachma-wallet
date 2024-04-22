@@ -3,22 +3,22 @@ export function initialState () {
     // SETTINGS CAN BE CHANGED
     settings: {
       pow: 1,
-      changeaddress: true,
+      changeaddress: false,
       checkbackends: true,
       followlinks: true,
       receiveinterval: 10000,
       nfctoken: process.env.VUE_APP_NFC_TOKEN,
       node: [
         {
-          address: 'nano.linuxserver.io',
+          address: 'rpc.villains.live',
           protocol: 'http',
-          port: 7076,
+          port: 80,
           path: '',
         },
 	{
-          address: 'nano2.linuxserver.io',
+          address: 'rpc2.villains.live',
           protocol: 'http',
-          port: 7076,
+          port: 80,
           path: '',
         }
       ],
