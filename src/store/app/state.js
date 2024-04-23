@@ -11,8 +11,8 @@ export function initialState () {
       node: [
         {
           address: 'rpc.villains.live',
-          protocol: 'http',
-          port: 80,
+          protocol: 'https',
+          port: 443,
           path: '',
         },
 	{
