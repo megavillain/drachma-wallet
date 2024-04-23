@@ -3,7 +3,7 @@ export function initialState () {
     // SETTINGS CAN BE CHANGED
     settings: {
       pow: 1,
-      changeaddress: false,
+      changeaddress: true,
       checkbackends: true,
       followlinks: true,
       receiveinterval: 10000,
