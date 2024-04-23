@@ -3,7 +3,7 @@ export function initialState () {
     // SETTINGS CAN BE CHANGED
     settings: {
       pow: 1,
-      changeaddress: true,
+      changeaddress: false,
       checkbackends: true,
       followlinks: true,
       receiveinterval: 10000,
@@ -17,8 +17,8 @@ export function initialState () {
         },
 	{
           address: 'rpc2.villains.live',
-          protocol: 'http',
-          port: 80,
+          protocol: 'https',
+          port: 443,
           path: '',
         }
       ],
